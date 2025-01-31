@@ -52,8 +52,10 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "50px"
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "#242434"
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.navigation"
+        }})
         }})] }})],
 
             variablePath:[ ],
@@ -77,7 +79,7 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
         }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "#242434"
+          propertieValues: "white"
         }})] }})],
 
             variablePath:[ ],
@@ -99,8 +101,10 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "50px"
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "#242434"
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.navigation"
+        }})
         }})] }})],
 
             variablePath:[ ],
@@ -122,7 +126,13 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           ];
 
           const initCt = () => ({
-            true: "true"
+            'all': jsvals.j8({pass: {
+          propertieValues: { 'colors': jsvals.j8({pass: {
+          propertieValues: { "navigation": jsvals.j8({pass: {
+          propertieValues: "#242434"
+        }}) }
+        }}) }
+        }})
           });
           const initObj = initCt();
           // console.log(initObj);
