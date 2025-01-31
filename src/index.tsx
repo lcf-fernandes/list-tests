@@ -25,6 +25,7 @@
 
           const screens = [
             
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home",
@@ -52,7 +53,7 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "50px"
         }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "red"
+          propertieValues: "#242434"
         }})] }})],
 
             variablePath:[ ],
@@ -99,7 +100,7 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "50px"
         }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "blue"
+          propertieValues: "#242434"
         }})] }})],
 
             variablePath:[ ],
@@ -115,7 +116,9 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           startFunctions:[()=>{}],
 
           args,
-        }}/>
+        }}/>, 
+        
+        () => <>{/*styles library*/}</>
           ];
 
           const initCt = () => ({
