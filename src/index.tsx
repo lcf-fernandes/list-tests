@@ -98,10 +98,10 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
         }})] }}), 
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "transparent"
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "auto"
         }})] }})],
 
             variablePath:[ ],
