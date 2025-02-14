@@ -100,8 +100,8 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "transparent"
-        }})] }}), stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "auto"
+        }})] }}), stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "1"
         }})] }})],
 
             variablePath:[ ],
