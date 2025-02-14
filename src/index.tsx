@@ -94,8 +94,11 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+            styles:[
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "transparent"
         }})] }})],
 
             variablePath:[ ],
