@@ -87,6 +87,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             expectedVal:[ ],
 
             childrenItems:[
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -117,6 +118,34 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
         }}),
             args,
         }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.toogles.listLoader"
+        }})
+        }})],
+
+            expectedVal:[jsvals.j8({pass: {
+          propertieValues: "loaded"
+        }})],
+
+            childrenItems:[() =><></>],
 
             args,
           }}/>
@@ -161,9 +190,14 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
 
           const initCt = () => ({
             'all': jsvals.j8({pass: {
-          propertieValues: { 'colors': jsvals.j8({pass: {
+          propertieValues: { 
+        'colors': jsvals.j8({pass: {
           propertieValues: { "navigation": jsvals.j8({pass: {
           propertieValues: "#242434"
+        }}) }
+        }}), 'toogles': jsvals.j8({pass: {
+          propertieValues: { "listLoader": jsvals.j8({pass: {
+          propertieValues: "loading"
         }}) }
         }}) }
         }})
