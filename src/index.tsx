@@ -108,13 +108,11 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }})],
 
             variablePath:[ ],
 
