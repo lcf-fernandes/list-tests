@@ -31,10 +31,10 @@
           pathScreen:"home",
 
           styles:[
+
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
-        }})] }}), 
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
         }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "white"
@@ -47,9 +47,6 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[
-stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
-        }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "50px"
         }})] }}), 
@@ -57,8 +54,8 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.colors.navigation"
         }})
-        }})] }}), stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "row"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100%"
         }})] }})],
 
             variablePath:[ ],
@@ -206,9 +203,6 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[
-stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
-        }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "50px"
         }})] }}), 
@@ -216,8 +210,8 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.colors.navigation"
         }})
-        }})] }}), stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "row"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100%"
         }})] }})],
 
             variablePath:[ ],
