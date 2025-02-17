@@ -145,7 +145,24 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "loaded"
         }})],
 
-            childrenItems:[() =><></>],
+            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "TESTE "
+        }})
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
@@ -197,7 +214,7 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
         }}) }
         }}), 'toogles': jsvals.j8({pass: {
           propertieValues: { "listLoader": jsvals.j8({pass: {
-          propertieValues: "loading"
+          propertieValues: "loaded"
         }}) }
         }}) }
         }})
