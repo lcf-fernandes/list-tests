@@ -100,9 +100,15 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
               }
               ],
 
-            variablePath:[ ],
+            variablePath:[jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.toogles.listLoader"
+        }})
+        }})],
 
-            expectedVal:[ ],
+            expectedVal:[jsvals.j8({pass: {
+          propertieValues: "loading"
+        }})],
 
             childrenItems:[(...args:any) => <Elements.Loader pass={{
             size: "small",
