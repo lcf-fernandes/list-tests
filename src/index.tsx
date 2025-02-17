@@ -47,15 +47,15 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "50px"
-        }})] }}), 
 stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.colors.navigation"
         }})
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
+        }})] }}), stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "row"
         }})] }})],
 
             variablePath:[ ],
@@ -203,15 +203,15 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "50px"
-        }})] }}), 
 stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.colors.navigation"
         }})
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
+        }})] }}), stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "row"
         }})] }})],
 
             variablePath:[ ],
