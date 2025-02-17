@@ -86,7 +86,35 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[() =><></>],
+            childrenItems:[
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[(...args:any) => <Elements.Loader pass={{
+            size: "small",
+            color: jsvals.j8({pass: {
+          propertieValues: "blue"
+        }}),
+            args,
+        }}/>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
