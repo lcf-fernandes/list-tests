@@ -126,14 +126,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+            styles:[[]],
 
             variablePath:[jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
