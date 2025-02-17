@@ -66,7 +66,25 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
             expectedVal:[ ],
 
             childrenItems:[
-        (...args:any) => <Elements.Pressable3 pass={{
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [
@@ -85,7 +103,29 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           pressableFunctions: [()=>console.log("Você Clicou!")],
 
           args,
-        }}/>, (...args:any) => <Elements.Text pass={{
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
@@ -103,6 +143,10 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           args,
 
         }}/>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
