@@ -110,8 +110,11 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
             styles:[
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
-        }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
+        }})] }}), stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "1"
         }})] }})],
 
             variablePath:[ ],
