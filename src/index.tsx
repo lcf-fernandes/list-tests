@@ -115,6 +115,7 @@ stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -160,6 +161,35 @@ stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
 
       args,
     }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "50px"
+        }})] }}), 
+stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "10px"
+        }})] }}), 
+stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "1"
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
 
             args,
           }}/>
