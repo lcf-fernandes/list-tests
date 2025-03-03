@@ -288,7 +288,15 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
 
         }}/>],
 
-          pressableFunctions: [()=>console.log("Você Clicou!")],
+          pressableFunctions: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [jsvals.j8({pass: {
+          propertieValues: "sc.home.toggles.loader"
+        }})],
+          value: jsvals.j8({pass: {
+          propertieValues: "true"
+        }})
+        }})],
 
           args,
         }}/>],
