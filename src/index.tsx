@@ -170,6 +170,24 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             styles: [],
             arrProps: [],
             arrItems: [
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[
         
 
           (...args:any) => <Elements.DynView pass={{
@@ -206,25 +224,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
 
             args,
           }}/>
-        , 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[(...args:any) => <Elements.Text pass={{
+        , (...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
