@@ -170,19 +170,6 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             styles: [],
             arrProps: [],
             arrItems: [
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "20px"
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[
         
 
           (...args:any) => <Elements.DynView pass={{
@@ -192,7 +179,9 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1"
         }})] }})],
 
-            variablePath:[ ],
+            variablePath:[jsvals.j8({pass: {
+          propertieValues: "sc.home.toggles.loader"
+        }})],
 
             expectedVal:[jsvals.j8({pass: {
           propertieValues: "true"
@@ -219,25 +208,42 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
 
             args,
           }}/>
-        , (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            {}
-          ],
+        , 
 
-          arrStyles: [
-            stls.color({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "red"
-        }})] }})
-          ],
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
 
-          children: [
-            jsvals.j8({pass: {
-          propertieValues: "TESTE "
-        }})
-          ],
+            styles:[stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "20px"
+        }})] }})],
+
+            variablePath:[jsvals.j8({pass: {
+          propertieValues: "sc.home.toggles.loader"
+        }})],
+
+            expectedVal:[jsvals.j8({pass: {
+          propertieValues: "false"
+        }})],
+
+            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [
+              {
+                backgroundColor: 'blue',
+                borderRadius: 20,
+                paddingVertical: 5,
+                paddingHorizontal: 20,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }
+              ],
+
+          childrenItems: [()=><></>],
+
+          pressableFunctions: [()=>console.log("Você Clicou!")],
 
           args,
-
         }}/>],
 
             args,
@@ -299,8 +305,7 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "loaded"
         }}) }
         }}) }
-        }}), 
-        'sc': jsvals.j8({pass: {
+        }}), 'sc': jsvals.j8({pass: {
           propertieValues: { 'home': jsvals.j8({pass: {
           propertieValues: { 'toggles': jsvals.j8({pass: {
           propertieValues: { "loader": jsvals.j8({pass: {
@@ -308,8 +313,6 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
         }}) }
         }}) }
         }}) }
-        }}), "teste": jsvals.j8({pass: {
-          propertieValues: "true"
         }})
           });
           const initObj = initCt();
