@@ -175,8 +175,11 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
+            styles:[
+        stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1"
+        }})] }}), stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "20px"
         }})] }})],
 
             variablePath:[jsvals.j8({pass: {
