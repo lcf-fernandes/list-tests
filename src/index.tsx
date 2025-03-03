@@ -172,26 +172,38 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+            styles:[stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "1"
+        }})] }})],
 
             variablePath:[jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
-          propertieValues: "all.toogles.listLoader"
+          propertieValues: "sc.home.toggles.loader"
         }})
         }})],
 
             expectedVal:[jsvals.j8({pass: {
-          propertieValues: "loading"
+          propertieValues: "true"
         }})],
 
-            childrenItems:[() =><></>],
+            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "Loader View Test"
+        }})
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
@@ -279,7 +291,8 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           ];
 
           const initCt = () => ({
-            'all': jsvals.j8({pass: {
+            
+        'all': jsvals.j8({pass: {
           propertieValues: { 
         'colors': jsvals.j8({pass: {
           propertieValues: { "navigation": jsvals.j8({pass: {
@@ -288,6 +301,14 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
         }}), 'toogles': jsvals.j8({pass: {
           propertieValues: { "listLoader": jsvals.j8({pass: {
           propertieValues: "loaded"
+        }}) }
+        }}) }
+        }}), 'sc': jsvals.j8({pass: {
+          propertieValues: { 'home': jsvals.j8({pass: {
+          propertieValues: { 'toggles': jsvals.j8({pass: {
+          propertieValues: { "loader": jsvals.j8({pass: {
+          propertieValues: "true"
+        }}) }
         }}) }
         }}) }
         }})
