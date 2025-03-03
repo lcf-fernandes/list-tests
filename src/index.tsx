@@ -187,7 +187,21 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "true"
         }})],
 
-            childrenItems:[(...args:any) => <Elements.Text pass={{
+            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [
+              {
+                backgroundColor: 'blue',
+                borderRadius: 20,
+                paddingVertical: 5,
+                paddingHorizontal: 20,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }
+              ],
+
+          childrenItems: [(...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
@@ -204,6 +218,19 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
 
           args,
 
+        }}/>],
+
+          pressableFunctions: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [jsvals.j8({pass: {
+          propertieValues: "sc.home.toggles.loader"
+        }})],
+          value: jsvals.j8({pass: {
+          propertieValues: "false"
+        }})
+        }})],
+
+          args,
         }}/>],
 
             args,
