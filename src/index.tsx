@@ -176,15 +176,9 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1"
         }})] }})],
 
-            variablePath:[jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "sc.home.toggles.loader"
-        }})
-        }})],
+            variablePath:[ ],
 
-            expectedVal:[jsvals.j8({pass: {
-          propertieValues: "true"
-        }})],
+            expectedVal:[ ],
 
             childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
