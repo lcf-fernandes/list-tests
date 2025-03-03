@@ -123,6 +123,15 @@ stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }}), 
+stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "1"
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), 
+stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), 
 stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }}), stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
@@ -133,24 +142,24 @@ stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            {}
-          ],
+            childrenItems:[
 
-          arrStyles: [
-            { color: 'black', fontSize: 12, }
-          ],
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
 
-          children: [
-            jsvals.j8({pass: {
-          propertieValues: "Lista de Tarefas"
-        }})
-          ],
+      styles:[
+    stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "230px"
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "80px"
+        }})] }})],
 
-          args,
+      URIvariablePath:[jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FlogoFlaxboll.png?alt=media&token=0b90ef25-b31f-443a-8ef3-59084b02bf41"
+        }})],
 
-        }}/>],
+      args,
+    }}/>],
 
             args,
           }}/>
