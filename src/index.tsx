@@ -206,8 +206,10 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           args,
 
         }}/>, (...args:any) => <Elements.Loader pass={{
-            size: "small",
-            color: ' ',
+            size: "medium",
+            color: jsvals.j8({pass: {
+          propertieValues: "red"
+        }}),
             args,
         }}/>],
 
