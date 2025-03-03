@@ -166,7 +166,10 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[
+            childrenItems:[(...args:any) => <Elements.ScrollBar pass={{
+            styles: [],
+            arrProps: [],
+            arrItems: [
         
 
           (...args:any) => <Elements.DynView pass={{
@@ -176,11 +179,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1"
         }})] }})],
 
-            variablePath:[jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "teste"
-        }})
-        }})],
+            variablePath:[ ],
 
             expectedVal:[jsvals.j8({pass: {
           propertieValues: "true"
@@ -198,41 +197,6 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           children: [
             jsvals.j8({pass: {
           propertieValues: "Loader View Test"
-        }})
-          ],
-
-          args,
-
-        }}/>],
-
-            args,
-          }}/>
-        , 
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "1"
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            {}
-          ],
-
-          arrStyles: [
-            { color: 'black', fontSize: 12, }
-          ],
-
-          children: [
-            jsvals.j8({pass: {
-          propertieValues: "Loader View Test 2"
         }})
           ],
 
@@ -284,6 +248,8 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             args,
           }}/>
         ],
+            args,
+        }}/>],
 
             args,
           }}/>
