@@ -77,11 +77,8 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
-        }})] }}), 
-stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
-        }})] }}), stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "1"
         }})] }})],
 
             variablePath:[ ],
@@ -118,22 +115,13 @@ stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[
-stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "center"
-        }})] }}), 
 stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1"
         }})] }}), 
-stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "center"
-        }})] }}), 
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
-        }})] }}), 
-stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
-        }})] }}), stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "1"
         }})] }})],
 
             variablePath:[ ],
@@ -175,11 +163,8 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
-        }})] }}), 
-stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
-        }})] }}), stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "1"
         }})] }})],
 
             variablePath:[ ],
