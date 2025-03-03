@@ -232,7 +232,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
 
           children: [
             jsvals.j8({pass: {
-          propertieValues: "Loader View Test"
+          propertieValues: "Loader View Test 2"
         }})
           ],
 
