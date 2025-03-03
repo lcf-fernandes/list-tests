@@ -288,19 +288,24 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "false"
         }})],
 
-            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+            childrenItems:[
+        (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [
-              {
-                backgroundColor: 'blue',
-                borderRadius: 20,
-                paddingVertical: 5,
-                paddingHorizontal: 20,
-                justifyContent: 'center',
-                alignItems: 'center',
-              }
-              ],
+
+stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), 
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "300px"
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.navigation"
+        }})
+        }})] }})],
 
           childrenItems: [(...args:any) => <Elements.Text pass={{
           arrProps: [
@@ -308,12 +313,14 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            stls.color({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#FFF"
+        }})] }})
           ],
 
           children: [
             jsvals.j8({pass: {
-          propertieValues: "List View Test"
+          propertieValues: "My To Do List"
         }})
           ],
 
@@ -332,7 +339,29 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
         }})],
 
           args,
-        }}/>],
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
