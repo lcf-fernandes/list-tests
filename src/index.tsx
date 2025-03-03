@@ -176,9 +176,15 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1"
         }})] }})],
 
-            variablePath:[ ],
+            variablePath:[jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "teste"
+        }})
+        }})],
 
-            expectedVal:[ ],
+            expectedVal:[jsvals.j8({pass: {
+          propertieValues: "true"
+        }})],
 
             childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
@@ -297,7 +303,8 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "loaded"
         }}) }
         }}) }
-        }}), 'sc': jsvals.j8({pass: {
+        }}), 
+        'sc': jsvals.j8({pass: {
           propertieValues: { 'home': jsvals.j8({pass: {
           propertieValues: { 'toggles': jsvals.j8({pass: {
           propertieValues: { "loader": jsvals.j8({pass: {
@@ -305,6 +312,8 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
         }}) }
         }}) }
         }}) }
+        }}), "teste": jsvals.j8({pass: {
+          propertieValues: "true"
         }})
           });
           const initObj = initCt();
