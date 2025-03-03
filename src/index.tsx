@@ -208,6 +208,41 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             args,
           }}/>
         , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "1"
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "Loader View Test"
+        }})
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
