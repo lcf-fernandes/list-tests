@@ -377,13 +377,13 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
         (...args:any) => <Elements.IptTxt2 pass={{
           propsArray: [{}],
 
-          stylesArray: [[]],
+          stylesArray: [{
+                color: 'black',
+                fontSize: 14,
+                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
+              }],
 
-          funcsArray: [async (...args) =>
-        functions.setVar({ args, pass:{
-          keyPath: ['example.A1.lists.iptsChanges.name'],
-          value: 'no value'
-        }})],
+          funcsArray: [() => {}],
 
           args,
         }}/>, (...args:any) => <Elements.FlatList2 pass={{
