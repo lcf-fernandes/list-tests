@@ -378,7 +378,9 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
             {}
           ],
 
-          pData: '',
+          pData: jsvals.j8({pass: {
+          propertieValues: "list.toDoItems"
+        }}),
 
           itemElements: [
             
@@ -394,7 +396,27 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[() =><></>],
+            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.item"
+        }}),
+          args
+        }})
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
@@ -464,13 +486,23 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
           propertieValues: "loaded"
         }}) }
         }}) }
-        }}), 'sc': jsvals.j8({pass: {
+        }}), 
+        'sc': jsvals.j8({pass: {
           propertieValues: { 'home': jsvals.j8({pass: {
           propertieValues: { 'toggles': jsvals.j8({pass: {
           propertieValues: { "loader": jsvals.j8({pass: {
           propertieValues: "true"
         }}) }
         }}) }
+        }}) }
+        }}), 'list': jsvals.j8({pass: {
+          propertieValues: { 'toDoItems': jsvals.j8({pass: {
+          propertieValues: [ 
+        jsvals.j8({pass: {
+          propertieValues: "clean"
+        }}), jsvals.j8({pass: {
+          propertieValues: "shop"
+        }}) ]
         }}) }
         }})
           });
