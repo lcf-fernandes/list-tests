@@ -300,14 +300,17 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }}), 
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "300px"
+          propertieValues: "500px"
         }})] }}), 
 stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.colors.navigation"
         }})
-        }})] }}), stls.alignSelf({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.alignSelf({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
+        }})] }}), stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "20px"
         }})] }})],
 
           childrenItems: [(...args:any) => <Elements.Text pass={{
