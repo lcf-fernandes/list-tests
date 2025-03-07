@@ -373,7 +373,27 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[() =><></>],
+            childrenItems:[(...args:any) => <Elements.FlatList2 pass={{
+          elementProperties: [
+            {}
+          ],
+
+          pData: '',
+
+          itemElements: [
+            
+              (...args) => {
+                return (
+                  <RN.Text>
+                    Adicione os campos que quer mostrar aqui.
+                  </RN.Text>
+                );
+              }
+              
+          ],
+
+          args,
+        }}/>],
 
             args,
           }}/>
