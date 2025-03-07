@@ -436,7 +436,9 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
 
       largura: "35px",
 
-      preenchimento: ['black'],
+      preenchimento: [jsvals.j8({pass: {
+          propertieValues: "#FFF"
+        }})],
 
       args,
     }}/>, (...args:any) => <Elements.SvgView1 pass={{
