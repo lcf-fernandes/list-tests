@@ -373,7 +373,20 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[(...args:any) => <Elements.FlatList2 pass={{
+            childrenItems:[
+        (...args:any) => <Elements.IptTxt2 pass={{
+          propsArray: [{}],
+
+          stylesArray: [[]],
+
+          funcsArray: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: ['example.A1.lists.iptsChanges.name'],
+          value: 'no value'
+        }})],
+
+          args,
+        }}/>, (...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
             {}
           ],
