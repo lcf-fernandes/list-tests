@@ -456,7 +456,7 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
       largura: "35px",
 
       preenchimento: [jsvals.j8({pass: {
-          propertieValues: "green"
+          propertieValues: "#666"
         }})],
 
       args,
