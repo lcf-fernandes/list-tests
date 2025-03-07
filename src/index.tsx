@@ -310,7 +310,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
 stls.alignSelf({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }}), stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "20px"
+          propertieValues: "10px"
         }})] }})],
 
           childrenItems: [(...args:any) => <Elements.Text pass={{
