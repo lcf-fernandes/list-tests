@@ -421,7 +421,8 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
 
           args,
 
-        }}/>, (...args:any) => <Elements.SvgView1 pass={{
+        }}/>, 
+        (...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
         return (props:any) => (<Svg     xmlns="http://www.w3.org/2000/svg"     width={14}     height={12}     fill="red"     viewBox="0 0 14 12"     {...props}   >     <Path       stroke="#000001"       strokeLinecap="round"       strokeLinejoin="round"       d="m.5 7.55 2.73 3.51a1 1 0 0 0 1.56.03L13.5.55"     />   </Svg>)
@@ -429,6 +430,23 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
 
       svgOriginal: `
         <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.5 7.55005L3.23 11.06C3.32212 11.1797 3.44016 11.277 3.57525 11.3446C3.71034 11.4121 3.85898 11.4482 4.01 11.45C4.15859 11.4518 4.3057 11.4203 4.44063 11.3581C4.57555 11.2958 4.6949 11.2042 4.79 11.09L13.5 0.550049" stroke="#000001" stroke-linecap="round" stroke-linejoin="round"/> </svg>
+      `,
+
+      altura: "15px",
+
+      largura: "35px",
+
+      preenchimento: ['black'],
+
+      args,
+    }}/>, (...args:any) => <Elements.SvgView1 pass={{
+      componentSvg: (Svg:any, SvgObj:any) => {
+        const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
+        return (props:any) => ( <Svg     xmlns="http://www.w3.org/2000/svg"     width={14}     height={14}     fill="red"     viewBox="0 0 14 14"     {...props}   >     <Path       stroke="#000001"       strokeLinecap="round"       strokeLinejoin="round"       d="M1 3.5h12m-8.5 0V3a2.5 2.5 0 1 1 5 0v.5m-4 2V11m3-5.5V11m-6-7.5h9v9a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-9Z"     />   </Svg>)
+      },
+
+      svgOriginal: `
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1 3.5H13M4.5 3.5V3C4.5 2.33696 4.76339 1.70107 5.23223 1.23223C5.70107 0.763392 6.33696 0.5 7 0.5C7.66304 0.5 8.29893 0.763392 8.76777 1.23223C9.23661 1.70107 9.5 2.33696 9.5 3V3.5M5.5 5.5V11M8.5 5.5V11M2.5 3.5H11.5V12.5C11.5 12.7652 11.3946 13.0196 11.2071 13.2071C11.0196 13.3946 10.7652 13.5 10.5 13.5H3.5C3.23478 13.5 2.98043 13.3946 2.79289 13.2071C2.60536 13.0196 2.5 12.7652 2.5 12.5V3.5Z" stroke="#000001" stroke-linecap="round" stroke-linejoin="round"/> </svg>
       `,
 
       altura: "15px",
