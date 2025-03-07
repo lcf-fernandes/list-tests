@@ -373,8 +373,7 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[
-        (...args:any) => <Elements.FlatList2 pass={{
+            childrenItems:[(...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
             {}
           ],
@@ -401,20 +400,6 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
           }}/>
         
           ],
-
-          args,
-        }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
-          propsArray: [{}],
-
-          stylesArray: [{
-                color: 'black',
-                fontSize: 14,
-                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
-              }],
-
-          editPath: [" "],
-
-          funcsArray: [() => {}],
 
           args,
         }}/>],
