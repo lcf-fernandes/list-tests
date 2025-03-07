@@ -393,7 +393,7 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
         stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "row"
         }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
+          propertieValues: "500px"
         }})] }})],
 
             variablePath:[ ],
