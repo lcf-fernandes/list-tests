@@ -275,7 +275,8 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "red"
         }}),
             args,
-        }}/>, (...args:any) => <Elements.IptTxt2 pass={{
+        }}/>, 
+        (...args:any) => <Elements.IptTxt2 pass={{
           propsArray: [{}],
 
           stylesArray: [{
@@ -283,6 +284,20 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
                 fontSize: 14,
                 // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
               }],
+
+          funcsArray: [() => {}],
+
+          args,
+        }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
+          propsArray: [{}],
+
+          stylesArray: [{
+                color: 'black',
+                fontSize: 14,
+                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
+              }],
+
+          editPath: [" "],
 
           funcsArray: [() => {}],
 
