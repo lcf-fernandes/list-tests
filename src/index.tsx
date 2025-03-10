@@ -223,7 +223,8 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "true"
         }})],
 
-            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+            childrenItems:[
+        (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [
@@ -267,6 +268,10 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
         }})],
 
           args,
+        }}/>, (...args:any) => <Elements.Loader pass={{
+            size: "small",
+            color: ' ',
+            args,
         }}/>],
 
             args,
