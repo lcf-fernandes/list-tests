@@ -268,12 +268,25 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
         }})],
 
           args,
-        }}/>, (...args:any) => <Elements.Loader pass={{
-            size: "medium",
+        }}/>, 
+        (...args:any) => <Elements.Loader pass={{
+            size: "small",
             color: jsvals.j8({pass: {
           propertieValues: "red"
         }}),
             args,
+        }}/>, (...args:any) => <Elements.IptTxt2 pass={{
+          propsArray: [{}],
+
+          stylesArray: [{
+                color: 'black',
+                fontSize: 14,
+                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
+              }],
+
+          funcsArray: [() => {}],
+
+          args,
         }}/>],
 
             args,
