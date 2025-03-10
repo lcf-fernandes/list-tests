@@ -199,7 +199,12 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[(...args:any) => <Elements.ScrollBar pass={{
+            childrenItems:[
+        (...args:any) => <Elements.Loader pass={{
+            size: "small",
+            color: ' ',
+            args,
+        }}/>, (...args:any) => <Elements.ScrollBar pass={{
             styles: [],
             arrProps: [],
             arrItems: [
