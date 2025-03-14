@@ -468,8 +468,14 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+            styles:[
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "20px"
+        }})] }}), 
+stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
         }})] }})],
 
             variablePath:[ ],
@@ -596,8 +602,14 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+            styles:[
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "20px"
+        }})] }}), 
+stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
         }})] }})],
 
             variablePath:[ ],
