@@ -376,16 +376,16 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[
-stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "500px"
-        }})] }}), 
 stls.alignSelf({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }}), 
 stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "10px"
-        }})] }}), stls.borderWidth({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.borderWidth({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1px"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "80%"
         }})] }})],
 
             variablePath:[ ],
