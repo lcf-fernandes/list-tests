@@ -200,7 +200,9 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             expectedVal:[ ],
 
             childrenItems:[(...args:any) => <Elements.ScrollBar pass={{
-            styles: [],
+            styles: [stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }})],
             arrProps: [],
             arrItems: [
         
@@ -304,11 +306,8 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1"
-        }})] }}), 
-stls.maxWidth({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), stls.maxWidth({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "600px"
-        }})] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "center"
         }})] }})],
 
             variablePath:[jsvals.j8({pass: {
