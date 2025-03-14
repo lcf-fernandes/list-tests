@@ -450,7 +450,7 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
           children: [
             jsvals.argReader({pass: {
           argPath: jsvals.j8({pass: {
-          propertieValues: "#0.0.item"
+          propertieValues: "#0.0.0.item"
         }}),
           args
         }})
