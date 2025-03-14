@@ -306,7 +306,7 @@ stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1"
         }})] }}), 
 stls.maxWidth({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "600px"
+          propertieValues: "800px"
         }})] }}), stls.alignSelf({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }})],
