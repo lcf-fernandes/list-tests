@@ -334,8 +334,8 @@ stls.alignSelf({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "10px"
-        }})] }}), stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "1"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "80%"
         }})] }})],
 
           childrenItems: [(...args:any) => <Elements.Text pass={{
