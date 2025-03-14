@@ -301,8 +301,11 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             styles:[
 stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "20px"
-        }})] }}), stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1"
+        }})] }}), stls.maxWidth({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "600px"
         }})] }})],
 
             variablePath:[jsvals.j8({pass: {
