@@ -425,7 +425,9 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[[]],
+            styles:[stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "80%"
+        }})] }})],
 
             variablePath:[ ],
 
