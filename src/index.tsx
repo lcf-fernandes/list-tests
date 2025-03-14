@@ -357,7 +357,7 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
 
           children: [
             jsvals.j8({pass: {
-          propertieValues: "My To Do List"
+          propertieValues: "Minha Lista de Tarefas"
         }})
           ],
 
