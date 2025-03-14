@@ -335,7 +335,7 @@ stls.alignSelf({ pass: { arrayValue: [jsvals.j8({pass: {
 stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "10px"
         }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "80%"
+          propertieValues: "90%"
         }})] }})],
 
           childrenItems: [(...args:any) => <Elements.Text pass={{
@@ -385,7 +385,7 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
 stls.borderWidth({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1px"
         }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "80%"
+          propertieValues: "90%"
         }})] }})],
 
             variablePath:[ ],
@@ -420,7 +420,7 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }}), 
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "80%"
+          propertieValues: "90%"
         }})] }}), stls.borderBottomWidth({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1px"
         }})] }})],
@@ -540,7 +540,7 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }}), 
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "80%"
+          propertieValues: "90%"
         }})] }}), stls.borderBottomWidth({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "1px"
         }})] }})],
@@ -570,61 +570,6 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           args,
 
         }}/>],
-
-            args,
-          }}/>
-        , 
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "5px"
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[() =><></>],
-
-            args,
-          }}/>
-        , 
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "20px"
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[(...args:any) => <Elements.SvgView1 pass={{
-      componentSvg: (Svg:any, SvgObj:any) => {
-        const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (<Svg     xmlns="http://www.w3.org/2000/svg"     width={14}     height={12}     fill="red"     viewBox="0 0 14 12"     {...props}   >     <Path       stroke="#000001"       strokeLinecap="round"       strokeLinejoin="round"       d="m.5 7.55 2.73 3.51a1 1 0 0 0 1.56.03L13.5.55"     />   </Svg>)
-      },
-
-      svgOriginal: `
-        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.5 7.55005L3.23 11.06C3.32212 11.1797 3.44016 11.277 3.57525 11.3446C3.71034 11.4121 3.85898 11.4482 4.01 11.45C4.15859 11.4518 4.3057 11.4203 4.44063 11.3581C4.57555 11.2958 4.6949 11.2042 4.79 11.09L13.5 0.550049" stroke="#000001" stroke-linecap="round" stroke-linejoin="round"/> </svg>
-      `,
-
-      altura: "15px",
-
-      largura: "15px",
-
-      preenchimento: [jsvals.j8({pass: {
-          propertieValues: "#FFF"
-        }})],
-
-      args,
-    }}/>],
 
             args,
           }}/>
