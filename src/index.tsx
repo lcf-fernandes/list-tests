@@ -271,8 +271,10 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
         }}/>, 
         (...args:any) => <Elements.Loader pass={{
             size: "small",
-            color: jsvals.j8({pass: {
-          propertieValues: "red"
+            color: jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.navigation"
+        }})
         }}),
             args,
         }}/>, (...args:any) => <Elements.IptTxt2 pass={{
