@@ -200,7 +200,10 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             expectedVal:[ ],
 
             childrenItems:[(...args:any) => <Elements.ScrollBar pass={{
-            styles: [stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+            styles: [
+        stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100%"
+        }})] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }})],
             arrProps: [],
