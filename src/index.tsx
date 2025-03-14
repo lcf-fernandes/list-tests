@@ -509,6 +509,24 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
             args,
           }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "5px"
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
         , (...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
             {}
