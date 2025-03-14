@@ -763,7 +763,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
         jsvals.j8({pass: {
           propertieValues: "Limpar a casa"
         }}), jsvals.j8({pass: {
-          propertieValues: "shop"
+          propertieValues: "Comprar verduras"
         }}) ]
         }}) }
         }})
