@@ -460,12 +460,10 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
             args,
           }}/>
-        , 
+        , (...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
 
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
+          styles: [
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "20px"
         }})] }}), 
@@ -475,11 +473,7 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }})],
 
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[(...args:any) => <Elements.SvgView1 pass={{
+          childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
         return (props:any) => (<Svg     xmlns="http://www.w3.org/2000/svg"     width={14}     height={12}     fill="red"     viewBox="0 0 14 12"     {...props}   >     <Path       stroke="#000001"       strokeLinecap="round"       strokeLinejoin="round"       d="m.5 7.55 2.73 3.51a1 1 0 0 0 1.56.03L13.5.55"     />   </Svg>)
@@ -500,9 +494,10 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
       args,
     }}/>],
 
-            args,
-          }}/>
-        ],
+          pressableFunctions: [()=>console.log("Você Clicou!")],
+
+          args,
+        }}/>],
 
             args,
           }}/>
