@@ -403,7 +403,6 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
 
           itemElements: [
             
-        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -573,29 +572,6 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
             args,
           }}/>
         ],
-
-            args,
-          }}/>
-        , 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-        stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "90%"
-        }})] }}), 
-        stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "1px"
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "black"
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[() =><></>],
 
             args,
           }}/>
