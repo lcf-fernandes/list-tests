@@ -761,7 +761,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
           propertieValues: { 'toDoItems': jsvals.j8({pass: {
           propertieValues: [ 
         jsvals.j8({pass: {
-          propertieValues: "clean"
+          propertieValues: "Limpar a casa"
         }}), jsvals.j8({pass: {
           propertieValues: "shop"
         }}) ]
