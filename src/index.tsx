@@ -304,8 +304,11 @@ stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.alignSelf({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
+        }})] }}), stls.maxWidth({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "600px"
         }})] }})],
 
             variablePath:[jsvals.j8({pass: {
