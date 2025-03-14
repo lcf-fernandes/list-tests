@@ -516,7 +516,7 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "5px"
+          propertieValues: "20px"
         }})] }})],
 
             variablePath:[ ],
@@ -538,6 +538,7 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
           itemElements: [
             
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -658,6 +659,23 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
             args,
           }}/>
         ],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "5px"
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
 
             args,
           }}/>
