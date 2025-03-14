@@ -301,9 +301,6 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             styles:[
 stls.padding({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "20px"
-        }})] }}), 
-stls.flex({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "1"
         }})] }}), stls.alignSelf({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }})],
