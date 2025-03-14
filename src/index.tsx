@@ -468,7 +468,7 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
           styles: [
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "20px"
+          propertieValues: "40px"
         }})] }}), 
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
@@ -613,7 +613,7 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
           styles: [
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "20px"
+          propertieValues: "40px"
         }})] }}), 
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
