@@ -407,11 +407,8 @@ stls.borderWidth({ pass: { arrayValue: [jsvals.j8({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[
-        stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+            styles:[stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "row"
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "500px"
         }})] }})],
 
             variablePath:[ ],
