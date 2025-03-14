@@ -422,10 +422,13 @@ stls.borderWidth({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[
+
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "80%"
         }})] }})],
 
             variablePath:[ ],
