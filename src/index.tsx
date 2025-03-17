@@ -512,13 +512,30 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
     }}/>],
 
           pressableFunctions: [async (...args) =>
+        functions.condition({ args, pass:{
+          conditionPath: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "lists.toDoItems"
+        }})
+        }})],
+          expectedValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "vazio"
+        }})
+        }})],
+          functionsTrue: [()=>{}],
+          functionsFalse: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [jsvals.j8({pass: {
           propertieValues: "lists.toDoItems"
         }})],
-          value: jsvals.j8({pass: {
-          propertieValues: "lists.toDoItems"
+          value: jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "forms.iptsChanges.newTask"
         }})
+        }})
+        }})],
+          args
         }})],
 
           args,
