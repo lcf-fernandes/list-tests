@@ -515,7 +515,7 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
         functions.condition({ args, pass:{
           conditionPath: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
-          propertieValues: "lists.toDoItems"
+          propertieValues: "forms.iptsChanges.newTask"
         }})
         }})],
           expectedValue: [jsvals.varReader({pass: {
