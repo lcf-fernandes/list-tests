@@ -535,7 +535,8 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "forms.iptsChanges.newTask"
         }})
         }})
-        }}), async (...args) =>
+        }}), 
+        async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [jsvals.j8({pass: {
           propertieValues: "forms.iptsChanges.newTask"
@@ -543,7 +544,12 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           value: jsvals.j8({pass: {
           propertieValues: ""
         }})
-        }})],
+        }}), 
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("home");
+        }
+        ],
           args
         }})],
 
