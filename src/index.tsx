@@ -524,7 +524,8 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
         }})
         }})],
           functionsTrue: [()=>{}],
-          functionsFalse: [async (...args) =>
+          functionsFalse: [
+        async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [jsvals.j8({pass: {
           propertieValues: "lists.toDoItems"
@@ -533,6 +534,14 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "forms.iptsChanges.newTask"
         }})
+        }})
+        }}), async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [jsvals.j8({pass: {
+          propertieValues: "forms.iptsChanges.newTask"
+        }})],
+          value: jsvals.j8({pass: {
+          propertieValues: ""
         }})
         }})],
           args
