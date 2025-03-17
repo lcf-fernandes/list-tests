@@ -441,7 +441,18 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
                 // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
               }],
 
-          funcsArray: [() => {}],
+          funcsArray: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [jsvals.j8({pass: {
+          propertieValues: "lists.toDoItems"
+        }})],
+          value: jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0"
+        }}),
+          args
+        }})
+        }})],
 
           args,
         }}/>],
