@@ -109,7 +109,8 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
         }}/>],
 
-          pressableFunctions: [(...args) => {
+          pressableFunctions: [
+        (...args) => {
           // ---------- set Capsules Inputs
           const itemsToLog = [jsvals.j8({pass: {
           propertieValues: "FUNCIONA!!!"
@@ -137,7 +138,12 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
             console.log(item);
           })
-        }],
+        }, 
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("alt");
+        }
+        ],
 
           args,
         }}/>],
