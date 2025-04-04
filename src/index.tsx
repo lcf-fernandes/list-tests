@@ -101,7 +101,12 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
           childrenItems: [()=><></>],
 
-          pressableFunctions: [()=>console.log("Você Clicou!")],
+          pressableFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("sc2");
+        }
+        ],
 
           args,
         }}/>],
