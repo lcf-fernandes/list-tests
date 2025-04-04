@@ -792,6 +792,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
         
         
         () => <>{/*elements library*/}</>, 
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"sc2",
@@ -840,6 +841,65 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
           return tools.goTo("home");
         }
         ],
+
+          args,
+        }}/>, 
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"alt",
+
+          styles:[
+
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100%"
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100%"
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "white"
+        }})] }})],
+
+          screenElements:[
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "Alt Screen"
+        }})
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+          startFunctions:[()=>{}],
 
           args,
         }}/>
