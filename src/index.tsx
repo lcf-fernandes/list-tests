@@ -96,7 +96,10 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            stls.fontSize({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: 30
+        }})
+        ] }})
           ],
 
           children: [
@@ -111,37 +114,8 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
           pressableFunctions: [
         (...args) => {
-          // ---------- set Capsules Inputs
-          const itemsToLog = [jsvals.j8({pass: {
-          propertieValues: "FUNCIONA!!!"
-        }})];
-
-          // ---------- set Console Log
-          itemsToLog.forEach(item=>{
-
-            if(typeof item === "function") return console.log({
-              function: item,
-              response: item(args)
-            });
-
-            if(typeof item === "string") {
-              // ---------- set Arguments Values (If Exists)
-              const checkArgs = item.startsWith('#');
-              if(checkArgs) item = tools.argSel(args, item);
-
-              // ---------- set Variables Values (If Exists)
-              const [condVar, varValue] = tools.getVarValue(item, "noComponent");
-              if(condVar) item = varValue;
-
-              return console.log(item);
-            }
-
-            console.log(item);
-          })
-        }, 
-        (...args) => {
           // ---------- get Function from A_Project Scope
-          return tools.goTo("alt");
+          return tools.goTo("sc2");
         }
         ],
 
@@ -852,7 +826,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
         }}/>, 
 
         (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"alt",
+          pathScreen:"sc2",
 
           styles:[
 
@@ -882,7 +856,21 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[(...args:any) => <Elements.Text pass={{
+            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [
+              {
+                backgroundColor: 'blue',
+                borderRadius: 20,
+                paddingVertical: 5,
+                paddingHorizontal: 20,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }
+              ],
+
+          childrenItems: [(...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
@@ -893,12 +881,22 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
 
           children: [
             jsvals.j8({pass: {
-          propertieValues: "Alt Screen"
+          propertieValues: "Return to Home"
         }})
           ],
 
           args,
 
+        }}/>],
+
+          pressableFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("home");
+        }
+        ],
+
+          args,
         }}/>],
 
             args,
