@@ -576,8 +576,10 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
             args,
           }}/>
-        , (...args:any) => <Elements.Watcher pass={{variable: [jsvals.j8({pass: {
+        , (...args:any) => <Elements.Watcher pass={{variable: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
           propertieValues: "list.toDoItems"
+        }})
         }})],childrenItems: [(...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
             {}
