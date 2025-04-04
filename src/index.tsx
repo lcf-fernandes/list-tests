@@ -772,58 +772,6 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
         
         
         () => <>{/*elements library*/}</>, 
-        
-
-        (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"sc2",
-
-          styles:[
-              {
-                backgroundColor: '#101',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100%',
-                width: '100%',
-              }
-              ],
-
-          screenElements:[
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[(...args:any) => <Elements.Loader pass={{
-            size: "small",
-            color: ' ',
-            args,
-        }}/>],
-
-            args,
-          }}/>
-        ],
-
-          startFunctions:[
-        (...args) => {
-          // ---------- get Function from A_Project Scope
-          return tools.goTo("home");
-        }
-        ],
-
-          args,
-        }}/>, 
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"sc2",
