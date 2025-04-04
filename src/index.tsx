@@ -96,10 +96,13 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           ],
 
           arrStyles: [
-            stls.fontSize({ pass: { arrayValue: [jsvals.j8({pass: {
+            
+        stls.fontSize({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: 30
         }})
-        ] }})
+        ] }}), stls.color({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "white"
+        }})] }})
           ],
 
           children: [
