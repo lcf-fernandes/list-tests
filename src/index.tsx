@@ -88,16 +88,7 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
             childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
-          styles: [
-              {
-                backgroundColor: 'blue',
-                borderRadius: 20,
-                paddingVertical: 5,
-                paddingHorizontal: 20,
-                justifyContent: 'center',
-                alignItems: 'center',
-              }
-              ],
+          styles: [[]],
 
           childrenItems: [(...args:any) => <Elements.Text pass={{
           arrProps: [
@@ -110,7 +101,7 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
           children: [
             jsvals.j8({pass: {
-          propertieValues: "RRR"
+          propertieValues: "O"
         }})
           ],
 
@@ -118,7 +109,35 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
 
         }}/>],
 
-          pressableFunctions: [()=>console.log("Você Clicou!")],
+          pressableFunctions: [(...args) => {
+          // ---------- set Capsules Inputs
+          const itemsToLog = [jsvals.j8({pass: {
+          propertieValues: "FUNCIONA!!!"
+        }})];
+
+          // ---------- set Console Log
+          itemsToLog.forEach(item=>{
+
+            if(typeof item === "function") return console.log({
+              function: item,
+              response: item(args)
+            });
+
+            if(typeof item === "string") {
+              // ---------- set Arguments Values (If Exists)
+              const checkArgs = item.startsWith('#');
+              if(checkArgs) item = tools.argSel(args, item);
+
+              // ---------- set Variables Values (If Exists)
+              const [condVar, varValue] = tools.getVarValue(item, "noComponent");
+              if(condVar) item = varValue;
+
+              return console.log(item);
+            }
+
+            console.log(item);
+          })
+        }],
 
           args,
         }}/>],
