@@ -534,11 +534,11 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
         async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [jsvals.j8({pass: {
-          propertieValues: "lists.toDoItems"
+          propertieValues: "forms.iptsChanges.newTask"
         }})],
           value: jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
-          propertieValues: "forms.iptsChanges.newTask"
+          propertieValues: "lists.toDoItems"
         }})
         }})
         }}), 
